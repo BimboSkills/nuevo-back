@@ -2,7 +2,7 @@ require ("dotenv").config()
 const http = require ("http")
 
 function requestController(req,res) {
-cl
+
     const url = req.url
     const method = req.method
     console.log({url, method})
